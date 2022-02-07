@@ -8,6 +8,7 @@ translator = Translator(to_lang='te')
 yagmail.SMTP(user="tedla.harika@gmail.com", password="Abbhilash")
 
 text = pandas.read_csv('people.csv')
+print(text)
 
 
 for greeting in greetings:
