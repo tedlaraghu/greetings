@@ -1,4 +1,4 @@
 from greets import greetings
 
 for greeting in greetings:
-    print(greeting.title() + " !")
+    print(greeting.title() + " !!!")
